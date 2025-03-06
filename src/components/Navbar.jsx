@@ -14,7 +14,7 @@ function Navbar({ currentPage, setCurrentPage }) {
             to="/get_user_balance"
             className="text-white text-2xl font-extrabold"
           >
-            bloccBank
+            cryptoPay
           </Link>
           <div className="flex space-x-4">
             {navItems.map((item) => (

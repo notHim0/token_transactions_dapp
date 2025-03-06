@@ -14,8 +14,7 @@ const TokenSwap = () => {
   const [quoteAmount, setQuoteAmount] = useState(0);
   const [outputTokenMint, setOutputTokenMint] = useState("");
   const [inputAmount, setInputAmount] = useState(1);
-  // const userAmount = useRef(null);
-  // const tokenDecimalRef = useRef(0);
+
   const [tokenDecimal, setTokenDecimal] = useState(1);
 
   async function getQuote() {
