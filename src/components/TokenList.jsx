@@ -1,9 +1,8 @@
 import React from "react";
 import { fetchRates } from "./tokens/tokenPriceList";
 
-const tokens = await fetchRates();
-
-const TokenList = () => {
+const TokenList = async () => {
+  const tokens = await fetchRates();
   return (
     <div className="absolute card mt-20 max-w-5xl left-1/2 transform -translate-x-1/2 w-full">
       <h2 className="text-xl font-bold text-white mb-6">Token Prices</h2>

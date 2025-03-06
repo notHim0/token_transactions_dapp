@@ -22,7 +22,9 @@ const CreateToken = () => {
   const [tokenName, setTokenName] = useState("");
   const [tokenSymbol, setTokenSymbol] = useState("");
   const [decimals, setDecimals] = useState("9");
-  const [imgUri, setImgUri] = useState("");
+  const [imgUri, setImgUri] = useState(
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg600Xa4ws6jp54kMDNGYF232lIhY51QJqEA&s"
+  );
 
   const { connection } = useConnection();
   const wallet = useWallet();
